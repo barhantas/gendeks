@@ -1,0 +1,190 @@
+.main-container{
+   height:100vh;    
+   font-family: Montserrat;
+}
+
+.header{
+    height: 15%;
+    align-items: flex-end;
+}
+
+.header-icon:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.header-icon:active{
+    transform: scale(1.00);
+}
+
+.footer-icon{
+    margin: 10px auto;
+}
+
+.footer-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.footer-icon:active{
+    transform: scale(1.00);
+}
+
+.login-card-layer{
+    background: #394A6D;
+    height: 70%
+}
+
+.footer{
+    height: 15%;
+    align-items: center;
+    font-style: italic;
+}
+
+.footer-text{
+    font-size: 16px;
+    padding: 0 60px;
+}
+
+.copy-right-text{
+    justify-content:center;
+    font-size: 10px;
+    margin: 8px 0;
+}
+
+.login-section{
+    color:#FFFFFF;
+    padding-left: 75px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    border-right: 1px solid #ffffff9c;
+}
+
+.login-section-header-text{
+    font-size: 64px;
+    color: white;
+}
+
+.login-form{
+    width: 400px;
+    margin-top: 50px;
+}
+
+.form-input{
+    background: transparent;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 26px;
+    padding-left: 0;
+    margin-bottom: 24px;
+}
+
+.form-input:focus{
+    box-shadow: none;
+    color: white;
+    background: transparent;
+    border-color: white;
+}
+
+.form-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.my-btn-primary{
+    background:#45b19399;
+    border-radius: 40px;
+    border-color: #073709;
+}
+
+.my-btn-primary:hover{
+    background:#45b193;
+    border-color: #073709;
+}
+
+.my-btn-primary:active{
+    background:#45b193 !important;
+    border-color: #073709;
+}
+
+.my-btn-primary:focus{
+    box-shadow: none !important;
+}
+
+.my-btn-secondary{
+    background:transparent;
+    border-radius: 40px;
+    border-color: #073709;
+}
+
+.my-btn-secondary:hover{
+    background:#0000003b;
+    border-color: #073709;
+}
+
+.my-btn-secondary:active{
+    background:#0000003b !important;
+    border-color: #073709;
+}
+
+.my-btn-secondary:focus{
+    box-shadow: none !important;
+}
+
+.without-login-section{
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-size: 36px;
+}
+
+.arrow-icon{
+    padding:0 60px;
+}
+
+.arrow-icon:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.arrow-icon:active{
+    transform: scale(1.00);
+}
+
+.register-form{
+    width: 100%;
+    color:#FFFFFF;
+    padding: 80px;
+}
+
+.register-form-row{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.no-border{
+    border: none;
+}
+
+.transparent:hover{
+    background:transparent;
+}
+
+.transparent:active{
+    background:transparent !important;
+    transform: scale(1.05);
+}
+
+.forgot-password{
+    color: white;
+    align-self: flex-end;
+    margin: 0 auto;
+}
+
+.forgot-password:hover{
+    color: white;
+}
