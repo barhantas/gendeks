@@ -1,3 +1,7 @@
+body{
+    font-family: Montserrat;
+ }
+
 .main-container{
    height:100vh;    
    font-family: Montserrat;
@@ -187,4 +191,66 @@
 
 .forgot-password:hover{
     color: white;
+}
+
+.app-header{
+    background: linear-gradient(-136deg, #02c9b3 0%, #37b102 100%);
+    height: 48px;
+    top: 100px;
+}
+
+.app-icon-header{
+    background: white;
+    height: 100px;
+    margin: 12px auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold !important;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white !important;
+    margin-top: -1px;
+    border-bottom: 1px solid white;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: white !important;
+}
+
+.survey-layer{
+    height: 1000px;
+    margin-top: 36px;
+    background: grey;
+    color: white;
+    font-size: 48px;
+}
+
+.survey-container{
+    margin-top: 60px;
+    height: 1000px;
+    background: grey;
+    color: white;
+    font-size: 48px;
+}
+
+.app-footer{
+    bottom: 0;
+    width: 100%;
+    height: 124px;
+    padding-top: 30px;
+    border-top: 1px solid black;
+    background: #d4d3d33d;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 24px;
 }
