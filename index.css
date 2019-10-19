@@ -227,6 +227,14 @@ body{
     color: white !important;
 }
 
+ul.navbar-nav.mr-auto{
+    background: linear-gradient(-136deg, #02c9b3 0%, #37b102 100%) !important;
+}
+
+.dropdown-menu.show{
+    left: 53%;
+}
+
 .survey-layer{
     height: 1000px;
     margin-top: 36px;
@@ -254,3 +262,15 @@ body{
     margin-right: 0;
     margin-top: 24px;
 }
+
+@media (max-width: 1200px) { 
+    .menu-item-title{
+        font-size: 14px !important;
+    }
+    .nav-link{
+        font-size: 14px !important;
+    }
+    .dropdown-item{
+        font-size: 14px !important;
+    }
+ }
