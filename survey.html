@@ -20,20 +20,28 @@
 
     <div class="row app-icon-header">
         <div class="col-sm">
-            <p class="text-center"><a href="https://www.istka.org.tr/" target="_blank"><img class="header-icon"
-                        src="./assets/1.png"></img></a></p>
+            <div class="row">
+                <div class="col-sm xx">
+                    <p class="text-center"><a href="https://www.istka.org.tr/" target="_blank"><img
+                                class="header-icon survey-header-icon" src="./assets/1.png"></img></a></p>
+                </div>
+                <div class="col-sm xx">
+                    <p class="text-center"><a href="http://giv.org.tr/" target="_blank"><img
+                                class="header-icon survey-header-icon" src="./assets/2.png"></img></a></p>
+                </div>
+            </div>
         </div>
         <div class="col-sm">
-            <p class="text-center"><a href="http://giv.org.tr/" target="_blank"><img class="header-icon"
-                        src="./assets/2.png"></img></a></p>
-        </div>
-        <div class="col-sm">
-            <p class="text-center"><a href="https://gendeks.com/" target="_blank"><img class="header-icon"
-                        src="./assets/3.png"></img></a></p>
-        </div>
-        <div class="col-sm">
-            <p class="text-center"><a href="https://www.sanayi.gov.tr/" target="_blank"><img class="header-icon"
-                        src="./assets/4.png"></img></a></p>
+            <div class="row">
+                <div class="col-sm xx">
+                    <p class="text-center"><a href="https://gendeks.com/" target="_blank"><img
+                                class="header-icon survey-header-icon" src="./assets/3.png"></img></a></p>
+                </div>
+                <div class="col-sm xx">
+                    <p class="text-center"><a href="https://www.sanayi.gov.tr/" target="_blank"><img
+                                class="header-icon survey-header-icon" src="./assets/4.png"></img></a></p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -158,10 +166,16 @@
         }
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
-            if (currentScrollPos > 100) {
+            var headerSize = 100;
+            if (window.innerWidth < 600) {
+                headerSize = 164;
+            }
+            if (currentScrollPos > headerSize) {
+                console.log("qqqq")
                 document.getElementById("navbar").style.top = "0px";
             } else {
-                document.getElementById("navbar").style.top = 100 - currentScrollPos + "px";
+                console.log("wwww")
+                document.getElementById("navbar").style.top = headerSize - currentScrollPos + "px";
             }
         }
     </script>

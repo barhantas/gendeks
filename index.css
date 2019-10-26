@@ -331,3 +331,21 @@ ul.navbar-nav.mr-auto{
         transform: scale(0.9);
     }
  }
+
+ @media (max-width: 600px){
+    .survey-header-icon{
+        max-width: 60px;
+    }
+    .xx{
+        width: 50%;
+    }
+    .app-icon-header{
+        margin: 32px auto !important;
+    }
+    .navbar{
+        top: 164px;
+    }
+    .survey-container{
+        margin-top: 110px;
+    }
+ }
