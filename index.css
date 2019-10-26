@@ -8,8 +8,7 @@ body{
 }
 
 .header{
-    height: 15%;
-    align-items: flex-end;
+    margin: 20px auto;
 }
 
 .header-icon:hover{
@@ -36,11 +35,9 @@ body{
 
 .login-card-layer{
     background: #394A6D;
-    height: 70%
 }
 
 .footer{
-    height: 15%;
     align-items: center;
     font-style: italic;
 }
@@ -62,6 +59,10 @@ body{
     padding-top: 80px;
     padding-bottom: 60px;
     border-right: 1px solid #ffffff9c;
+}
+
+.login-section-form-row{
+    width: 100%;
 }
 
 .login-section-header-text{
@@ -147,7 +148,7 @@ body{
 }
 
 .arrow-icon{
-    padding:0 60px;
+    /* padding:0 60px; */
 }
 
 .arrow-icon:hover{
@@ -254,7 +255,6 @@ ul.navbar-nav.mr-auto{
 .app-footer{
     bottom: 0;
     width: 100%;
-    height: 124px;
     padding-top: 30px;
     border-top: 1px solid black;
     background: #d4d3d33d;
@@ -272,5 +272,62 @@ ul.navbar-nav.mr-auto{
     }
     .dropdown-item{
         font-size: 14px !important;
+    }
+ }
+
+ @media (max-width: 500px) { 
+    .login-section-header-text{
+        font-size: 24px !important;
+    }
+    .register-form{
+        padding:50px;
+    }
+    .form-input{
+        font-size: 14px !important;
+    }
+    .without-login-section{
+        font-size: 14px !important;
+    } 
+    img{
+        max-width: 62px !important;
+    }
+    .my-btn-primary{
+        font-size: 14px !important;
+    }
+    .my-btn-secondary{
+        font-size: 14px !important;
+    }
+    .forgot-password{
+        font-size: 14px !important;
+    }
+ }
+
+ @media (max-width: 768px){
+    .container {
+        max-width: none;
+    }
+ }
+
+ @media (max-width: 992px){
+    .forgot-password {
+        padding-top: 10px;
+    }
+ }
+
+ @media (max-width: 612px){
+    .login-section-header-text{
+        font-size: 32px;
+    }
+    .register-form{
+        padding:50px;
+    }
+    .form-input{
+        font-size: 24px;
+    }
+    .without-login-section{
+        font-size: 24px;
+    } 
+    img{
+        transform: scale(0.9);
     }
  }
