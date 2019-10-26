@@ -349,3 +349,14 @@ ul.navbar-nav.mr-auto{
         margin-top: 110px;
     }
  }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://image.flaticon.com/icons/svg/148/148795.svg);
+}
+.button.navbar-toggler.collapsed{
+    margin-top: -3px;
+}
+.navbar-light .navbar-toggler{
+    color:none;
+    border:none;
+}
