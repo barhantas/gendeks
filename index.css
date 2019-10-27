@@ -245,9 +245,10 @@ ul.navbar-nav.mr-auto{
 }
 
 .survey-container{
+    /* border:1px solid black; */
     margin-top: 60px;
-    height: 1000px;
-    background: grey;
+    /* height: 1000px; */
+    background: white;
     color: white;
     font-size: 48px;
 }
